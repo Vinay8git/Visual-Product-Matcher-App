@@ -1,0 +1,135 @@
+<!-- Backend Testing UI -->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Visual Product Matcher</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <div class="max-w-5xl mx-auto p-4">
+    <header class="mb-6">
+      <h1 class="text-2xl font-semibold">Visual Product Matcher</h1>
+      <p class="text-sm text-gray-600">Upload an image or paste an image URL to find similar products.</p>
+    </header>
+
+    <section class="grid gap-4 md:grid-cols-3">
+      <div class="md:col-span-2 p-4 bg-white rounded-2xl shadow">
+        <form id="searchForm" class="space-y-4">
+          <div>
+            <label class="block text-sm font-medium mb-1">Image file</label>
+            <input id="fileInput" name="file" type="file" accept="image/*" class="block w-full text-sm" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-1">Or image URL</label>
+            <input id="urlInput" name="url" type="url" placeholder="https://..." class="w-full border rounded p-2 text-sm" />
+          </div>
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium">Top K: <span id="topkLabel">12</span></label>
+              <input id="topk" type="range" min="3" max="24" value="12" class="w-full" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium">Min score: <span id="scoreLabel">0.00</span></label>
+              <input id="minScore" type="range" min="0" max="100" value="0" class="w-full" />
+              <p class="text-xs text-gray-500">Score in [0..1]</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <button id="submitBtn" type="submit" class="px-4 py-2 bg-blue-600 text-white rounded-xl">Search</button>
+            <label class="inline-flex items-center gap-2 text-sm">
+              <input id="rebuild" type="checkbox" /> Rebuild index
+            </label>
+          </div>
+        </form>
+      </div>
+
+      <div class="p-4 bg-white rounded-2xl shadow">
+        <h2 class="font-medium mb-2">Preview</h2>
+        <div id="preview" class="aspect-square bg-gray-100 rounded overflow-hidden flex items-center justify-center text-gray-400">No image</div>
+      </div>
+    </section>
+
+    <section class="mt-6">
+      <div id="status" class="hidden p-3 rounded bg-yellow-50 text-yellow-800 text-sm"></div>
+      <div id="error" class="hidden p-3 rounded bg-red-50 text-red-700 text-sm"></div>
+      <div id="results" class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-4"></div>
+    </section>
+  </div>
+
+  <script>
+    const form = document.getElementById('searchForm');
+    const fileInput = document.getElementById('fileInput');
+    const urlInput = document.getElementById('urlInput');
+    const preview = document.getElementById('preview');
+    const results = document.getElementById('results');
+    const statusBox = document.getElementById('status');
+    const errorBox = document.getElementById('error');
+    const topk = document.getElementById('topk');
+    const topkLabel = document.getElementById('topkLabel');
+    const minScore = document.getElementById('minScore');
+    const scoreLabel = document.getElementById('scoreLabel');
+    const rebuild = document.getElementById('rebuild');
+
+    topk.addEventListener('input', () => topkLabel.textContent = topk.value);
+    minScore.addEventListener('input', () => scoreLabel.textContent = (minScore.value/100).toFixed(2));
+
+    fileInput.addEventListener('change', () => {
+      if (fileInput.files && fileInput.files[0]) {
+        const url = URL.createObjectURL(fileInput.files[0]);
+        preview.innerHTML = `<img src="${url}" class="w-full h-full object-cover"/>`;
+      }
+    });
+
+    urlInput.addEventListener('input', () => {
+      const val = urlInput.value.trim();
+      if (val) {
+        preview.innerHTML = `<img src="${val}" class="w-full h-full object-cover"/>`;
+      }
+    });
+
+    function setStatus(text) { statusBox.textContent = text; statusBox.classList.remove('hidden'); }
+    function clearStatus() { statusBox.classList.add('hidden'); }
+    function setError(text) { errorBox.textContent = text; errorBox.classList.remove('hidden'); }
+    function clearError() { errorBox.classList.add('hidden'); }
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      clearError(); results.innerHTML = '';
+      setStatus('Searching...');
+
+      const fd = new FormData();
+      if (fileInput.files[0]) fd.append('file', fileInput.files[0]);
+      if (urlInput.value.trim()) fd.append('url', urlInput.value.trim());
+      fd.append('top_k', topk.value);
+      fd.append('min_score', (minScore.value/100).toFixed(2));
+      fd.append('rebuild', rebuild.checked ? 'true' : 'false');
+
+      try {
+        const resp = await fetch('/api/search', { method: 'POST', body: fd });
+        const data = await resp.json();
+        clearStatus();
+        if (!resp.ok) { setError(data.error || 'Search failed'); return; }
+        renderResults(data);
+      } catch (err) { clearStatus(); setError(String(err)); }
+    });
+
+    function renderResults(data) {
+      const arr = data.results || [];
+      if (arr.length === 0) { results.innerHTML = '<p class="text-sm text-gray-600">No results.</p>'; return; }
+      results.innerHTML = arr.map(r => `
+        <article class="bg-white rounded-xl shadow overflow-hidden">
+          <img src="${r.image_url}" alt="${r.name}" class="w-full h-40 object-cover"/>
+          <div class="p-3">
+            <h3 class="font-medium text-sm">${r.name}</h3>
+            <p class="text-xs text-gray-500">${r.category}</p>
+            <p class="text-xs mt-1">Score: <span class="font-mono">${r.score.toFixed(3)}</span></p>
+          </div>
+        </article>
+      `).join('');
+    }
+  </script>
+</body>
+</html>

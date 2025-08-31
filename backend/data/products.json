@@ -1,0 +1,392 @@
+[
+  {
+    "id": "shirt-01",
+    "name": "Classic Cotton Shirt",
+    "category": "Shirts",
+    "image_url": "https://media.gettyimages.com/id/131936811/photo/striped-shirts.jpg?s=2048x2048&w=gi&k=20&c=FYf28sGyFK_GaoHC8UCZSDgrzZdGYSv_4_SwkN_Axcg="
+  },
+  {
+    "id": "shirt-02",
+    "name": "Oxford Blue Shirt",
+    "category": "Shirts",
+    "image_url": "https://as2.ftcdn.net/v2/jpg/14/33/24/99/1000_F_1433249918_r8K4u8kwVuLBmvIPLzCC8WjgHaM6mHMD.jpg"
+  },
+  {
+    "id": "shirt-03",
+    "name": "Linen Summer Shirt",
+    "category": "Shirts",
+    "image_url": "https://media.gettyimages.com/id/597644454/photo/men-business-suit-on-grey-background.jpg?s=2048x2048&w=gi&k=20&c=FgVY9aNGKV0oKKwljFPi5lR6iFKHtIBrIuJS5hYy59E="
+  },
+  {
+    "id": "shirt-04",
+    "name": "Plaid Casual Shirt",
+    "category": "Shirts",
+    "image_url": "https://media.gettyimages.com/id/184962348/photo/blue-flannel-shirt.jpg?s=2048x2048&w=gi&k=20&c=tfF0sv1-E1qI9dK3aXjf8XttnWWV52oqaszcwflE9ts="
+  },
+  {
+    "id": "shirt-05",
+    "name": "Black Slim Shirt",
+    "category": "Shirts",
+    "image_url": "https://media.gettyimages.com/id/157567646/photo/clothes-on-a-hanger.jpg?s=2048x2048&w=gi&k=20&c=Z8X1zBIyWiTwSHZCUXjYhvXB9Lt7oZ-pZSfdIYK5tJY="
+  },
+  {
+    "id": "shirt-06",
+    "name": "White Formal Shirt",
+    "category": "Shirts",
+    "image_url": "https://media.gettyimages.com/id/154952893/photo/white-formal-female-shirt.jpg?s=2048x2048&w=gi&k=20&c=uzGvBKHATE7By5BJB9-jNhjnhSWxcsy576jvrl-w2G0="
+  },
+  {
+    "id": "shirt-07",
+    "name": "Denim Chambray Shirt",
+    "category": "Shirts",
+    "image_url": "https://media.gettyimages.com/id/157441019/photo/mens-black-short-sleeved-shirt-isolated-on-white-w-clipping-path.jpg?s=2048x2048&w=gi&k=20&c=uVOkKsSC-QF5OnYBetjOxcO8ZMmgoLJ_lVjTQOsJHT8="
+  },
+  {
+    "id": "shirt-08",
+    "name": "Printed Resort Shirt",
+    "category": "Shirts",
+    "image_url": "https://media.gettyimages.com/id/103948662/photo/brown-plaid-shirt-white-background.jpg?s=2048x2048&w=gi&k=20&c=QqysNZ0x_J03241pMsXl1GHTHkrLN2ay-Qc106ItLi8="
+  },
+  {
+    "id": "shirt-09",
+    "name": "Flannel Warm Shirt",
+    "category": "Shirts",
+    "image_url": "https://img.freepik.com/free-photo/shirt_1203-8194.jpg?t=st=1756478813~exp=1756482413~hmac=7f78abc7b9671c459ed0766b71d4fd715df38b6c293df80b539cb23835522b15&w=2000"
+  },
+  {
+    "id": "shirt-10",
+    "name": "Stretch Work Shirt",
+    "category": "Shirts",
+    "image_url": "https://media.gettyimages.com/id/157567639/photo/close-up-of-a-white-mens-shirts.jpg?s=2048x2048&w=gi&k=20&c=0bGTpJxKBX-EBIzNF26hbqbfOGSDkbw3OiTlC1SF0HY="
+  },
+  {
+    "id": "shoe-01",
+    "name": "Runner Sneaker",
+    "category": "Shoes",
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "shoe-02",
+    "name": "Leather Oxford",
+    "category": "Shoes",
+    "image_url": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "shoe-03",
+    "name": "Canvas Low Top",
+    "category": "Shoes",
+    "image_url": "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "shoe-04",
+    "name": "Hiking Boot",
+    "category": "Shoes",
+    "image_url": "https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "shoe-05",
+    "name": "Slip-on Loafer",
+    "category": "Shoes",
+    "image_url": "https://media.gettyimages.com/id/493111450/photo/salomon-evasion-gtx-male-hiking-shoe.jpg?s=612x612&w=0&k=20&c=icJyuWZ91IIVdlIwbxclupOdXSzdnNEZHs7hQnK4OxE="
+  },
+  {
+    "id": "shoe-06",
+    "name": "Trail Runner",
+    "category": "Shoes",
+    "image_url": "https://media.gettyimages.com/id/91511945/photo/white-leather-fashion-shoe-on-black-reflective-background.jpg?s=612x612&w=0&k=20&c=ZakOOG-8YqWWxq4HdEhJ9xZ7tLQGI9dsZ2OH-bDYH4w="
+  },
+  {
+    "id": "shoe-07",
+    "name": "High-Top Sneaker",
+    "category": "Shoes",
+    "image_url": "http://media.gettyimages.com/id/1474105015/photo/black-and-red-basketball-sneakers-on-a-blue-background-concept-for-sneaker-basketball-retro.jpg?s=612x612&w=0&k=20&c=Ldbp8kh2O9b8TXGT0bcRYaq3r-6tJVRXvO-MDmfbfQs="
+  },
+  {
+    "id": "shoe-08",
+    "name": "Chelsea Boot",
+    "category": "Shoes",
+    "image_url": "https://media.gettyimages.com/id/1397720464/photo/casual-leather-boots-and-shoes-for-men-on-a-wooden-shelf-in-a-retail-store.jpg?s=612x612&w=0&k=20&c=_Lpigg528_xlyMQ_VYDipWNPHaufJJ55o9nMcqDKhMo="
+  },
+  {
+    "id": "shoe-09",
+    "name": "Court Tennis Shoe",
+    "category": "Shoes",
+    "image_url": "https://media.gettyimages.com/id/182379474/photo/golf-shoes-gloves-ball-club-on-green-grass.jpg?s=612x612&w=0&k=20&c=UIMrlITU6IW9iVmNhiamHDEuxAt11-j0NyrsrlW5rwE="
+  },
+  {
+    "id": "shoe-10",
+    "name": "All-day Trainer",
+    "category": "Shoes",
+    "image_url": "https://images.unsplash.com/photo-1543508282-6319a3e2621f?q=80&w=715&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": "laptop-01",
+    "name": "Ultrabook 13",
+    "category": "Laptops",
+    "image_url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fHww"
+  },
+  {
+    "id": "laptop-02",
+    "name": "Gaming Laptop 15",
+    "category": "Laptops",
+    "image_url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wfGVufDB8fDB8fHww"
+  },
+  {
+    "id": "laptop-03",
+    "name": "Business Pro 14",
+    "category": "Laptops",
+    "image_url": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": "laptop-04",
+    "name": "2-in-1 Convertible",
+    "category": "Laptops",
+    "image_url": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": "laptop-05",
+    "name": "Creator Studio 16",
+    "category": "Laptops",
+    "image_url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": "laptop-06",
+    "name": "Everyday 15",
+    "category": "Laptops",
+    "image_url": "https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?_gl=1*arbqfh*_ga*MTAxNDk1NTE2Ny4xNzU2Mzk0MDUx*_ga_8JE65Q40S6*czE3NTY0ODU2NDQkbzQkZzEkdDE3NTY0ODY0MzgkajYwJGwwJGgw"
+  },
+  {
+    "id": "laptop-07",
+    "name": "Portable 12",
+    "category": "Laptops",
+    "image_url": "https://images.unsplash.com/photo-1511385348-a52b4a160dc2?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": "laptop-08",
+    "name": "Workstation 17",
+    "category": "Laptops",
+    "image_url": "https://images.unsplash.com/photo-1577375729152-4c8b5fcda381?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": "laptop-09",
+    "name": "Student Book 14",
+    "category": "Laptops",
+    "image_url": "https://images.unsplash.com/photo-1527800792452-506aacb2101f?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxhcHRvcCUyMGNvbXB1dGVyfGVufDB8fDB8fHww"
+  },
+  {
+    "id": "laptop-10",
+    "name": "Budget Laptop 15",
+    "category": "Laptops",
+    "image_url": "https://images.pexels.com/photos/221011/pexels-photo-221011.jpeg?_gl=1*ype0z9*_ga*MTAxNDk1NTE2Ny4xNzU2Mzk0MDUx*_ga_8JE65Q40S6*czE3NTY0ODU2NDQkbzQkZzEkdDE3NTY0ODY0NTMkajQ1JGwwJGgw"
+  },
+  {
+    "id": "phone-01",
+    "name": "Smartphone X",
+    "category": "Smartphones",
+    "image_url": "https://media.istockphoto.com/id/1426145821/photo/iphone-14-pro-on-dark-background.jpg?s=612x612&w=0&k=20&c=y1_O549AMOtDIgqq_L46lDW3gv0WdH4sKuGLutHEdC8="
+  },
+  {
+    "id": "phone-02",
+    "name": "Smartphone Y",
+    "category": "Smartphones",
+    "image_url": "https://media.istockphoto.com/id/2173563100/photo/iphone-16-pro-smartphone.jpg?s=612x612&w=0&k=20&c=SXECFz1NMEdbYK9XzJYsn7JIPAivJUXRwG7dwxN_QM8="
+  },
+  {
+    "id": "phone-03",
+    "name": "Smartphone Z",
+    "category": "Smartphones",
+    "image_url": "https://media.gettyimages.com/id/1234620338/photo/samsung-electronics-co-galaxy-z-fold3-5g-foldable-smartphones-at-the-samsung-unpacked-product.jpg?s=612x612&w=0&k=20&c=CbmWz1nPRIHdiE-0Yy12yyd8jPR1ZatMAM6i9ZYLYOE="
+  },
+  {
+    "id": "phone-04",
+    "name": "Smartphone Mini",
+    "category": "Smartphones",
+    "image_url": "https://media.gettyimages.com/id/474102580/photo/samsung-note-waterproof.jpg?s=612x612&w=0&k=20&c=qwTfi1-VW-1tHduGP1wvjUDAFMrJrcU_O3sg-G_UwtE="
+  },
+  {
+    "id": "phone-05",
+    "name": "Smartphone Max",
+    "category": "Smartphones",
+    "image_url": "https://images.pexels.com/photos/32890114/pexels-photo-32890114.jpeg?_gl=1*1fczn8k*_ga*MTAxNDk1NTE2Ny4xNzU2Mzk0MDUx*_ga_8JE65Q40S6*czE3NTY1MjcxNTIkbzUkZzEkdDE3NTY1Mjc1NjYkajU5JGwwJGgw"
+  },
+  {
+    "id": "phone-06",
+    "name": "Camera Phone Pro",
+    "category": "Smartphones",
+    "image_url": "https://media.istockphoto.com/id/1957422363/photo/granada-andalusia-spain-24th-january-2024-new-samsung-s24-ultra-smartphone-in-its-box-detail.jpg?s=612x612&w=0&k=20&c=CU0DMOVLXiMVVuf949HYlHtOAAf7BcEKCg50WP6aqm0="
+  },
+  {
+    "id": "phone-07",
+    "name": "Budget Phone A",
+    "category": "Smartphones",
+    "image_url": "https://images.unsplash.com/photo-1746123726090-c8e262cb3341?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dml2byUyMG1vYmlsZSUyMHBob25lfGVufDB8fDB8fHww"
+  },
+  {
+    "id": "phone-08",
+    "name": "Budget Phone B",
+    "category": "Smartphones",
+    "image_url": "https://images.unsplash.com/photo-1752580810578-1ba4f444ef2c?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dml2byUyMG1vYmlsZSUyMHBob25lfGVufDB8fDB8fHww"
+  },
+  {
+    "id": "phone-09",
+    "name": "Fold Phone",
+    "category": "Smartphones",
+    "image_url": "https://media.istockphoto.com/id/1957422364/photo/granada-andalusia-spain-24th-january-2024-new-samsung-s24-ultra-smartphone-in-its-box.jpg?s=612x612&w=0&k=20&c=L5i0QUqNKWCoH7bNuJDv2bQDrxJET9ddMSpqHIqifG0="
+  },
+  {
+    "id": "phone-10",
+    "name": "Rugged Phone",
+    "category": "Smartphones",
+    "image_url": "https://media.istockphoto.com/id/1189152313/photo/dual-lens-camera-and-fingerprint-scanner-at-the-back-of-a-smartphone-from-a-popular.jpg?s=612x612&w=0&k=20&c=iZBsVgeg9rqrmWZ90P4FyW9kZ-L31cxRyhKkDa4NFXs="
+  },
+  {
+    "id": "headphone-01",
+    "name": "Over-ear ANC",
+    "category": "Headphones",
+    "image_url": "https://images.unsplash.com/photo-1577174881658-0f30ed549adc?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": "headphone-02",
+    "name": "Over-ear Bosh",
+    "category": "Headphones",
+    "image_url": "https://images.unsplash.com/photo-1628202926206-c63a34b1618f?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "id": "headphone-03",
+    "name": "In-ear Wired Apple",
+    "category": "Headphones",
+    "image_url": "http://images.pexels.com/photos/983831/pexels-photo-983831.jpeg?_gl=1*sg29yc*_ga*MTAxNDk1NTE2Ny4xNzU2Mzk0MDUx*_ga_8JE65Q40S6*czE3NTY1MjcxNTIkbzUkZzEkdDE3NTY1Mjc5NTMkajYwJGwwJGgw"
+  },
+  {
+    "id": "headphone-04",
+    "name": "In-ear Wired",
+    "category": "Headphones",
+    "image_url": "https://media.gettyimages.com/id/157532976/photo/white-earbuds-on-black.jpg?s=612x612&w=0&k=20&c=flMmuBELxuArJ--ZrTFQASELaa4zWnAL6BXcwWlCjdw="
+  },
+  {
+    "id": "headphone-05",
+    "name": "Studio Monitor Luxury",
+    "category": "Headphones",
+    "image_url": "https://media.istockphoto.com/id/171292342/photo/headphones.jpg?s=612x612&w=0&k=20&c=EzzocKh9cRBpK9RqbE8GLYYI_EnJ8J4j1RZYNjmTPvQ="
+  },
+  {
+    "id": "headphone-06",
+    "name": "Studio Monitor",
+    "category": "Headphones",
+    "image_url": "https://images.pexels.com/photos/8133246/pexels-photo-8133246.jpeg?_gl=1*rtr99q*_ga*MTAxNDk1NTE2Ny4xNzU2Mzk0MDUx*_ga_8JE65Q40S6*czE3NTY1MjcxNTIkbzUkZzEkdDE3NTY1Mjg0ODgkajYwJGwwJGgw"
+  },
+  {
+    "id": "headphone-07",
+    "name": "Gaming Headset",
+    "category": "Headphones",
+    "image_url": "https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?_gl=1*sivipe*_ga*MTAxNDk1NTE2Ny4xNzU2Mzk0MDUx*_ga_8JE65Q40S6*czE3NTY1MjcxNTIkbzUkZzEkdDE3NTY1Mjc5NTMkajYwJGwwJGgw"
+  },
+  {
+    "id": "headphone-08",
+    "name": "Premium Headset",
+    "category": "Headphones",
+    "image_url": "https://images.pexels.com/photos/377711/pexels-photo-377711.jpeg?_gl=1*sg29yc*_ga*MTAxNDk1NTE2Ny4xNzU2Mzk0MDUx*_ga_8JE65Q40S6*czE3NTY1MjcxNTIkbzUkZzEkdDE3NTY1Mjc5NTMkajYwJGwwJGgw"
+  },
+  {
+    "id": "headphone-09",
+    "name": "Sports Earbuds",
+    "category": "Headphones",
+    "image_url": "https://media.istockphoto.com/id/1646426505/photo/in-ear-headphones-black-wireless-earphones-in-ear-with-charging-case-wireless-earbuds-or.jpg?s=612x612&w=0&k=20&c=8nQvJtdCJV3aCyODf_GGZ80EIeE5pVc8MuaPDFZwSn0="
+  },
+  {
+    "id": "headphone-10",
+    "name": "Work Earbuds",
+    "category": "Headphones",
+    "image_url": "https://media.istockphoto.com/id/1080261986/photo/white-wireless-bluetooth-earphones-or-headphones-close-up.jpg?s=612x612&w=0&k=20&c=QFEcEz3LLxYkm8kbkcpApH2Zvve1qwurrUueRDVSaKE="
+  },
+  {
+    "id": "watch-01",
+    "name": "Analog Dress Watch",
+    "category": "Watches",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0Y2h8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": "watch-02",
+    "name": "Analog Formal Watch",
+    "category": "Watches",
+    "image_url": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2F0Y2h8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "id": "watch-03",
+    "name": "Digital Sport Watch",
+    "category": "Watches",
+    "image_url": "https://media.istockphoto.com/id/1286099942/photo/close-up-of-hand-touching-smartwatch-with-health-app-on-the-screen-gadget-for-fitness-active.jpg?s=612x612&w=0&k=20&c=zX9Fko_T6qppRO8J8BSYu4DovmLjPFKwi_x6l0GzCq0="
+  },
+  {
+    "id": "watch-04",
+    "name": "Digital Kids Watch",
+    "category": "Watches",
+    "image_url": "https://media.istockphoto.com/id/1475312484/vector/3d-realistic-smart-watch.jpg?s=612x612&w=0&k=20&c=8HZ19MaXEBRtnVApEbRcm1u2qln7SPM4rcD1STQPxOE="
+  },
+  {
+    "id": "watch-05",
+    "name": "Smartwatch S",
+    "category": "Watches",
+    "image_url": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?_gl=1*1tmodcp*_ga*MTAxNDk1NTE2Ny4xNzU2Mzk0MDUx*_ga_8JE65Q40S6*czE3NTY1MjcxNTIkbzUkZzEkdDE3NTY1Mjg2NzckajYwJGwwJGgw"
+  },
+  {
+    "id": "watch-06",
+    "name": "Apple Smartwatch ",
+    "category": "Watches",
+    "image_url": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?_gl=1*p2qllg*_ga*MTAxNDk1NTE2Ny4xNzU2Mzk0MDUx*_ga_8JE65Q40S6*czE3NTY1MjcxNTIkbzUkZzEkdDE3NTY1Mjg2NzckajYwJGwwJGgw"
+  },
+  {
+    "id": "watch-07",
+    "name": "Field Watch",
+    "category": "Watches",
+    "image_url": "https://media.gettyimages.com/id/1370566743/photo/vintage-ww2-wristwatch.jpg?s=612x612&w=0&k=20&c=mfNCS6Lml0e8OAp2ul9jN22h4_pKvm6W4qJlTrDcPL8="
+  },
+  {
+    "id": "watch-08",
+    "name": "Sports Watch",
+    "category": "Watches",
+    "image_url": "https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg?_gl=1*p2qllg*_ga*MTAxNDk1NTE2Ny4xNzU2Mzk0MDUx*_ga_8JE65Q40S6*czE3NTY1MjcxNTIkbzUkZzEkdDE3NTY1Mjg2NzckajYwJGwwJGgw"
+  },
+  {
+    "id": "watch-09",
+    "name": "Diver Watch",
+    "category": "Watches",
+    "image_url": "https://images.unsplash.com/photo-1517463700628-5103184eac47?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHdhdGNofGVufDB8fDB8fHww"
+  },
+  {
+    "id": "watch-10",
+    "name": "Luxury Watch",
+    "category": "Watches",
+    "image_url": "https://images.pexels.com/photos/364822/rolex-watch-time-luxury-364822.jpeg?_gl=1*1tmodcp*_ga*MTAxNDk1NTE2Ny4xNzU2Mzk0MDUx*_ga_8JE65Q40S6*czE3NTY1MjcxNTIkbzUkZzEkdDE3NTY1Mjg2NzckajYwJGwwJGgw"
+  },
+  {
+    "id": "Headphones-1756571945227",
+    "name": "Premium Earbuds",
+    "category": "Headphones",
+    "image_url": "https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg?_gl=1*n3a30v*_ga*MTI4MzY5NjE5NS4xNzU2NTQwNjgx*_ga_8JE65Q40S6*czE3NTY1NjgwMTQkbzMkZzEkdDE3NTY1NjkzODQkajQ5JGwwJGgw"
+  },
+  {
+    "id": "Smartphone-1756571983386",
+    "name": "Samsung Galaxy Z Fold",
+    "category": "Smartphone",
+    "image_url": "https://images.pexels.com/photos/16149964/pexels-photo-16149964.jpeg?_gl=1*1f46ulq*_ga*MTI4MzY5NjE5NS4xNzU2NTQwNjgx*_ga_8JE65Q40S6*czE3NTY1NzE3MjEkbzQkZzEkdDE3NTY1NzE3NDgkajMzJGwwJGgw"
+  },
+  {
+    "id": "Laptops-1756614893367",
+    "name": "Dell Alienware",
+    "category": "Laptops",
+    "image_url": "https://media.istockphoto.com/id/1198480894/photo/photography-of-gaming-laptop-from-the-front-side-view-placed-on-gray-background-laptop.jpg?b=1&s=612x612&w=0&k=20&c=xq0GxVr-ZBxJGz16KBAiH4vsUmGeaOJp4l3WBD4xJCA="
+  },
+  {
+    "id": "Watch-1756616955058",
+    "name": "Rolex Watch",
+    "category": "Watch",
+    "image_url": "https://images.pexels.com/photos/19766307/pexels-photo-19766307.jpeg?_gl=1*1bocm6o*_ga*MTI4MzY5NjE5NS4xNzU2NTQwNjgx*_ga_8JE65Q40S6*czE3NTY2MTY5NDEkbzYkZzAkdDE3NTY2MTY5NDEkajYwJGwwJGgw"
+  },
+  {
+    "id": "Shoes-1756617135968",
+    "name": "Premium Leather Shoes",
+    "category": "Shoes",
+    "image_url": "https://images.pexels.com/photos/9965910/pexels-photo-9965910.jpeg?_gl=1*9qwq8*_ga*MTI4MzY5NjE5NS4xNzU2NTQwNjgx*_ga_8JE65Q40S6*czE3NTY2MTY5NDEkbzYkZzEkdDE3NTY2MTcxMTYkajU5JGwwJGgw"
+  }
+]
