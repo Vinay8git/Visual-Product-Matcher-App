@@ -31,9 +31,9 @@ Built with:
 ## 📂 Project Structure
 
 ```plaintext
-Visual-Product-Matcher/
+Visual-Product-Matcher-App/
 │
-├── Back-End/                      # Backend (Express.js + Python CLIP)
+├── backend/                      # Backend (Express.js + Python CLIP)
 │   ├── data/                      # Data storage
 │   │   ├── images_cache/          # Cached product images
 │   │   ├── embeddings.json        # Precomputed embeddings
@@ -50,7 +50,7 @@ Visual-Product-Matcher/
 │   ├── package-lock.json
 │   └── requirements.txt           # Python dependencies
 │
-├── Front-End/                     # React Frontend (Vite)
+├── frontend/                     # React Frontend (Vite)
 │   ├── src/
 │   │   ├── assets/                # Images / icons
 │   │   ├── App.css                # Global styles
