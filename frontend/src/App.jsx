@@ -49,7 +49,7 @@ const App = () => {
     fd.append("min_score", minScore / 100);
 
     try {
-      const resp = await fetch(`${API_BASE}/api/search`, {
+      const resp = await fetch(`${API_BASE}/search`, {
         method: "POST",
         body: fd,
       });
