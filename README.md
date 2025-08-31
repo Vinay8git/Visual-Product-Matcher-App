@@ -188,7 +188,7 @@ npm run dev
 
 ___
 
-### 🧪 Testing the Application
+## 🧪 Testing the Application
 
 
 You can test the system using sample images and backend microfrontend tools.
@@ -223,6 +223,26 @@ You can test the system using sample images and backend microfrontend tools.
 
 
 ---
+
+## 🚀 Deployment
+
+The **Visual Product Matcher** is deployed entirely on **AWS EC2 [ Free Tier ]** for full control of both frontend and backend.
+
+- 🎨 **Frontend (React + Vite)** → Served on EC2 instance (port 3000).  
+  🔗 Live: [http://visual-product-matcher](http://13.53.123.138:3000)
+
+- ⚡ **Backend (Node.js + Express + Python CLIP)** → Running on the same EC2 instance (port 5000).  
+  🔗 Live API: [http://visual-product-matcher](http://13.53.123.138:5000)
+
+- 📦 **Data (products.json + embeddings.json + cached images)** → Stored locally on the EC2 instance for low-latency access.
+
+### ⏱️ Latency Notes
+- **Frontend → Backend (same EC2 machine):** Sub-10 ms internal latency.  
+- **Client → EC2 (Internet):** Typically **100–250 ms**, depending on user’s region vs. EC2 region.  
+- **End-to-End search (CLIP inference + cosine similarity):** ~1s for Top-10 results.
+
+---
+
 
 ### 🌍 Project Highlights
 
