@@ -9,6 +9,12 @@ Built with:
 - 🗄 **Data storage:** JSON-based product catalog + embeddings index
 
 ---
+## Demo
+
+[![Watch The Demo](Visuals/Visual-2.png)](https://drive.google.com/file/d/1Fd-kZUuq8wnYYJuoMW9QDcKgyBp8pomN/view?usp=sharing)
+
+
+---
 
 ## 🚀 Features
 
