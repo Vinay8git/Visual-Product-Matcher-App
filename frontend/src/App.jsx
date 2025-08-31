@@ -79,7 +79,7 @@ const App = () => {
     setAddMessage("Adding product & Rebuilding Index...");
 
     try {
-      const resp = await fetch(`${API_BASE}/api/add-product`, {
+      const resp = await fetch(`${API_BASE}/add-product`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
