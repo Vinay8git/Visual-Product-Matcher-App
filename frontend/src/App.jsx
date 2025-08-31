@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 
+
 const App = () => {
   // Search State
   const [file, setFile] = useState(null);
@@ -18,6 +19,7 @@ const App = () => {
   const [newUrl, setNewUrl] = useState("");
   const [newPreview, setNewPreview] = useState(null);
   const [addMessage, setAddMessage] = useState("");
+  const API_BASE = import.meta.env.VITE_API_BASE_URL;
 
   // Handle search file upload
   const handleFileChange = (e) => {
@@ -47,7 +49,7 @@ const App = () => {
     fd.append("min_score", minScore / 100);
 
     try {
-      const resp = await fetch("http://localhost:5000/api/search", {
+      const resp = await fetch(`${API_BASE}/api/search`, {
         method: "POST",
         body: fd,
       });
@@ -77,7 +79,7 @@ const App = () => {
     setAddMessage("Adding product & Rebuilding Index...");
 
     try {
-      const resp = await fetch("http://localhost:5000/api/add-product", {
+      const resp = await fetch(`${API_BASE}/api/add-product`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

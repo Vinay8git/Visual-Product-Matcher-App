@@ -35,6 +35,7 @@ const { spawn } = require('child_process');
 const path = require('path');
 const cors = require('cors');
 const fs = require('fs');
+require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
